@@ -1,0 +1,12 @@
+
+.chat-window {
+    text-align: center;
+    width: 500px;
+    height: 100%;
+    margin: auto;
+    border: 15px solid #2eb9ce;
+    padding: 20px;
+    border-radius: 10px;
+    color: #019ad2;
+    font-size: 1.2em;
+  }

@@ -1,0 +1,46 @@
+.name {
+    font-size: 3em;
+  }
+  
+  h2 {
+    font-size: 2.2em;
+    text-align: center !important;
+  }
+  
+  .input-group,
+  .input-group-append {
+    border-radius: 10px;
+    color: #2eb9ce !important;
+  }
+  
+  .submit-button {
+    background-color: #2eb9ce;
+    color: black;
+  }
+  
+  .submit-button:hover,
+  .submit-button:active,
+  .submit-button:focus {
+    border-color: #2eb9ce;
+    color: black;
+    outline: none !important;
+    box-shadow: none;
+    background-color: #3498db;
+  }
+  
+  .form-control,
+  .form-control:focus {
+    border-color: #2eb9ce;
+    outline: 0 !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: black;
+  }
+  
+  .sender {
+    color: #29a979;
+  }
+  
+  .recipient {
+    color: #019ad2;
+  }
