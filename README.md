@@ -1,44 +1,68 @@
-### Instructions
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-You're given a starter template with dummy data.
+## Available Scripts
 
-**Task**: Add interactivity to the app by refactoring the static code in this
-template. The goal is to build a React app that shows 2 chat windows for the
-two existing users - Amy and John. The messages they send to each other should
-appear in both chat windows. On Amy's screen, her messages should appear in green and
-John's messages should appear in blue. On John's screen, his messages should appear in
-green and Amy's messages should appear in blue.
+In the project directory, you can run:
 
-Remember to follow these steps from the [Thinking in React Guide](https://reactjs.org/docs/thinking-in-react.html) when you're building your
-React applications:
+### `npm start`
 
-#### Step 1. Break down the app into a hierarchy of components. Draw a box around each React component.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-#### Step 2. Determine the data in our app.
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-#### Step 3. Figure out the data that should be a part of our state:
+### `npm test`
 
-1.  Is it passed in from a parent via props? If so, it probably isn’t state.
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-2.  Does it remain unchanged over time? If so, it probably isn’t state.
+### `npm run build`
 
-3.  Can you compute it based on any other state or props in your component?
-    If so, it isn’t state.
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-#### Step 4. Identify where each piece of state lives.
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-1.  Identify every component that renders something based on that state.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-2.  If multiple components need the same piece of state, put that piece of state into those components' parent-most component.
+### `npm run eject`
 
-If you can’t find a component where it makes sense to own the state, create
-a new component simply for holding the state and add it somewhere in the
-hierarchy above the common owner component.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-#### Step 5. Add Inverse Data Flow.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-State should be updated inside of the component where that state lives.
-If we pass state down from component A to component B and then need to update
-the state based on something that happened in component B, we can do so via
-callbacks: Component A will not only pass state to Component B, but it will
-also pass a callback function that will fire whenever the state should be updated.
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
